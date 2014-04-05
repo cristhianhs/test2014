@@ -6,7 +6,7 @@ Hosting barato normal --> /public_html/ <-- FTP
 	index.php
 	images
 	leonidas.jpg
-www.fuckencio.com
+www.dodgecoin.com
 
 SISTEMA DE CONTROL DE VERSIONES 
 

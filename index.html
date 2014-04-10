@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="Proyecto de la primera generación del 2014 del curso de diseño web online" />
+	<meta name="viewport" content="width= device-width, minimun-scale=1, maximun-scale=1" />
 	<title>Puls2014: Comunidad online de gente atractiva y sexy</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css" />
@@ -13,7 +14,7 @@
 		<figure id="logo">
 			<img src="logo.png" />
 		</figure>
-		<h1>Puls2014: enseñando a hilton GituHuB</h1>
+		<h1>Puls2014: Comunidad de personas atractivas y millonarias</h1>
 		<figure id="avatar">
 			<img src="avatar.jpg" />
 		</figure>
@@ -26,10 +27,23 @@
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
 			<li id="publicar_nav">
-				<a href="#">Publicar</a>
+				<a href="#" class="icon-lapiz" id="mostrar-form">Publicar</a>
 			</li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<input type="text" id="titulo" placeholder="Titulo" required>
+		<input type="url" id="url" placeholder="Link" required>
+		<input type="submit" value="Agregar">
+	</form>
+
+	<aside>
+		<video width="320" height ="240" controls autoplay>
+			<source src="lecturas.mp4" type="video/mp4">
+			<source src="lecturas.ogg" type="video/ogg">
+		</video>
+	</aside>
+	
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
@@ -48,11 +62,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -72,11 +86,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -96,11 +110,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -120,11 +134,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -144,11 +158,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 		<article class="item">
@@ -168,11 +182,11 @@
 				</span>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up">U</a>
+				<a href="#" class="up icon-flecha-arriba"></a>
 				696
-				<a href="#" class="down">D</a>
+				<a href="#" class="down icon-flecha-abajo"></a>
 				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item">X</a>
+				<a href="#" class="guardar_item icon-estrella"></a>
 			</div>
 		</article>
 	</section>
@@ -182,5 +196,7 @@
 		</p>
 		<p>mejorando.la 2013</p>
 	</footer>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="formulario.js"></script>
 </body>
 </html>
